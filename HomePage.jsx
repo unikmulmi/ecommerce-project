@@ -1,0 +1,7 @@
+ <div>
+        <>
+        <Header />
+        <CardContainer />
+        </>
+
+    </div>
