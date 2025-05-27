@@ -1,4 +1,4 @@
-import PlaceHolder from './PlaceHolder'
+
 
 const PlaceHolderContainer = () => {
     const placeNumbers = [...Array(12).keys()].slice(0);
@@ -9,7 +9,7 @@ const PlaceHolderContainer = () => {
 
         <div className="container px-4 px-lg-5 mt-5">
             <div className="row justify-content-center">
-                {placeNumbers.map(num => <PlaceHolder key={num} /> )}
+                 <PlaceHolder />
                
             </div>
         </div>
