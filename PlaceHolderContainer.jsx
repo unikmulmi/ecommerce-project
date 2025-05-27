@@ -1,7 +1,4 @@
-
-
-const PlaceHolderContainer = () => {
-    const placeNumbers = [...Array(12).keys()].slice(0);
+ const placeNumbers = [...Array(12).keys()].slice(0);
 
   return (
     <section className="py-5" id='shop'>
@@ -15,7 +12,5 @@ const PlaceHolderContainer = () => {
         </div>
     </section>
     
-  )
-}
 
-export default PlaceHolderContainer
+
