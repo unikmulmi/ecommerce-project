@@ -3,15 +3,7 @@
 
       <div className="container px-4 px-lg-5 mt-5">
         <div className="row justify-content-center">
-          <HomeCard />
-          <HomeCard />
-          <HomeCard />
-          <HomeCard />
-          <HomeCard />
-          <HomeCard />
-          <HomeCard />
-          <HomeCard />
-          
+                  {/*<HomeCard />   */}
 
         </div>
 
