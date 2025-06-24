@@ -1,0 +1,4 @@
+
+                    <button className="btn btn-sm mx-2" style={{backgroundColor: "#4b3bcb" , color:"white"}} onClick={updateCartitem} disabled={loading}>
+                        {loading ? "Updating" : "Update"}</button>
+                    <button className="btn btn-danger btn-sm" onClick={deleteCartitem}>Remove</button>
