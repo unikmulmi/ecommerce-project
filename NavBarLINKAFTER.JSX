@@ -1,16 +1,6 @@
-import React, { useContext } from 'react'
-import { NavLink} from 'react-router-dom'
-import { AuthContext } from '../../context/AuthContext'
 
-const NavBarLink = () => {
-
-    const {isAuthenticated} = useContext(AuthContext)
-
-  return (
-    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-        {isAuthenticated
-        
-        }
+        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+      
         <li className='nav-item'>
             <NavLink
             to = '/login'
@@ -57,7 +47,6 @@ const NavBarLink = () => {
         </li>
 
     </ul>
-  )
-}
+ 
 
-export default NavBarLink
+
