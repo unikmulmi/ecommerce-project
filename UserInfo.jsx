@@ -1,9 +1,9 @@
     <div className="row mb-4">
-    <div className={`col-md-3 py-3 card ${StyleSheet.textCenter}`}>
+    <div className={`col-md-3 py-3 card ${styles.textCenter}`}>
         <img 
         src={pic}
         alt='User Profile'
-        className={`img-fluid rounded circle mb-3 mx-auto ${StyleSheet.profileImage}`}
+        className={`img-fluid rounded circle mb-3 mx-auto ${styles.profileImage}`}
         />
         <h4>Unik Mulmi</h4>
         <p className='text-muted'>Unik.Mulmi@example.com</p>
