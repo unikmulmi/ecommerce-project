@@ -1,7 +1,7 @@
     <div className="row mb-4">
     <div className={`col-md-3 py-3 card ${styles.textCenter}`}>
         <img 
-        src={pic}
+        src=""
         alt='User Profile'
         className={`img-fluid rounded circle mb-3 mx-auto ${styles.profileImage}`}
         />
