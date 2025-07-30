@@ -1,5 +1,5 @@
     <div className="card-body">
-        <div className={`order-item mb-3 ${StyleSheet.orderItem}`}>
+        <div className={`order-item mb-3 ${styles.orderItem}`}>
             <div className="row">
                 <div className="col-md-2">
                     <img 
