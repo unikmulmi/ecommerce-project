@@ -9,7 +9,7 @@
         style={{width : '60px' , height: "60px" , objectFit:"cover" , borderRadius:"5px"}}
         />
         <div className="ms-3">
-            <h6 className="mb-0">Product Name}</h6>
+            <h6 className="mb-0">Product Name</h6>
             <small>Quantity : 1</small>
 
         </div>
